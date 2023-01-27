@@ -1,4 +1,17 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<div class="topnav">
+    <div class="topnav-centered">
+        <a href="mailto:matillman95@gmail.com" style='text-decoration: none' class='active'>Contact me</a>    </div>
+    <a href="http://mikeatillman.com/">Back to home</a>
+    <div class="topnav-right">
+        <a href='https://docs.google.com/document/d/1Ow-vjSC-hTmxOChU9gfIlUVpnn6BVZdS/edit?usp=sharing&ouid=103905365095766595067&rtpof=true&sd=true' style= 'text-decoration: none'> My resume </a>         
+    </div>
+</div>
 
 {% block page_content %}{% endblock %}
 
