@@ -8,8 +8,9 @@ python3 -m pip freeze
 pip freeze > requirements.txt
 
 
-git add . && git commmit -m 'quick deploy' && git push
+git add . && git commit -m 'quick deploy' && git push
 
 add images
+
 
 
