@@ -7,6 +7,9 @@ If pip install does not work in venv run: python3 -m pip install <dependency>
 python3 -m pip freeze 
 pip freeze > requirements.txt
 
+
+git add . && git commmit -m 'quick deploy' && git push
+
 add images
-deploy
+
 
