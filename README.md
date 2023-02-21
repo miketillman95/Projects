@@ -1,16 +1,23 @@
+Personal Project Page
+
+Link to home page: https://mikeatillman.com
+
+My project page showcases my live projects and programming work
+
+
+To run this project:
+*python3 is required on the system
+
 start venv = python3 -m venv venv && source venv/bin/activate
 
-to run server: python manage.py runserver
+If pip install does not work in venv run: python3 -m pip install
 
-If pip install does not work in venv run: python3 -m pip install <dependency>
+to run server: python3 manage.py runserver
 
-python3 -m pip freeze 
-pip freeze > requirements.txt
-
-
-git add . && git commit -m 'quick deploy' && git push
-
-add images
-
-
+Technologies used in the projects displayed in the application:
+React
+Next
+Node
+Django
+Bootstrap
 
