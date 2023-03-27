@@ -7,6 +7,7 @@ class Proj(models.Model):
 	technology = models.CharField(max_length=20)
 	image = models.FilePathField(path='/img')
 	website = models.CharField(default='default_value', max_length=255)
+	code = models.CharField(default='default_value', max_length=255)
 
 
 
